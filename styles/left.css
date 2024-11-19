@@ -1,0 +1,28 @@
+body > .left-container {
+    width: 30%;
+    height: 100%;
+    background-color: var(--first-color); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top:0;
+}
+
+/*imagen Profile*/
+.img-profile{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 3px solid #000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
